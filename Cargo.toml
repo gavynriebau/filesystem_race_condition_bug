@@ -1,0 +1,8 @@
+[package]
+name = "filesystem_race_condition_bug"
+version = "0.1.0"
+authors = ["Gavyn Riebau <gavyn.riebau@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+filesystem = "0.4.2"
