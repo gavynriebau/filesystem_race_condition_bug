@@ -2,6 +2,9 @@
 
 # Rename Bug (possible race condition?)
 
+**_This issue has been fixed already as of version "0.4.3" of the `filesystem` create_**
+
+
 This test captures a bug where the rename function in the rust `filesystem` crate doesn't consistently succeed but instead _sometimes_ panics while attempting to rename the parent directory from
 "/parent_dir" to "/parent_dir_renamed".
 
